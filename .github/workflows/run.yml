@@ -4,10 +4,10 @@
 name: arXiv-daily-ai-enhanced
 
 on:
-  schedule:
-    - cron: "30 3 * * *"
-  workflow_dispatch:
 
+  schedule:
+    - cron:  '30 2 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
